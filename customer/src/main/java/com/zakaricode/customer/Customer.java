@@ -11,14 +11,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.SequenceGenerator;
-
+//generated code
 @Builder
 @Data
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 public class Customer {
-
     @Id
     @SequenceGenerator(
             name = "customer_id_sequence",
